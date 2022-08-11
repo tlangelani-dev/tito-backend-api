@@ -7,10 +7,7 @@ const morgan = require('morgan');
 app.use(express.json());
 app.use(morgan('combined'));
 
-app.get('/', (req, res) => {
-    return res.json({
-        message: 'We Good!'
-    });
-});
+app.use('/', require('./routes/app.router'));
+app.use('/products', require('./routes/products.router'));
 
 app.listen(PORT, () => console.log(`Express server is running on port ${PORT}`));

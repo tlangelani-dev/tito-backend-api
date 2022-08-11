@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "name": "16GB DDR3 RAM",
+        "price": 950
+    },
+    {
+        "id": 2,
+        "name": "Asus Gaming Laptop",
+        "price": 23500
+    },
+    {
+        "id": 3,
+        "name": "Apple MacBook Pro",
+        "price": 33000
+    },
+    {
+        "id": 4,
+        "name": "LG 24inch Monitor",
+        "price": 2450
+    },
+    {
+        "id": 5,
+        "name": "Logitec Mouse and Keyboard",
+        "price": 750
+    }
+]
