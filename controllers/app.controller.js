@@ -5,6 +5,14 @@ const getHome = (req, res) => {
     });
 }
 
+const notFound = (req, res) => {
+    return res.status(404).json({
+        success: false,
+        message: 'Resource not found!'
+    });
+}
+
 module.exports = {
-    getHome
+    getHome,
+    notFound,
 };
